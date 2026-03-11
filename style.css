@@ -1,0 +1,52 @@
+/* 基本設定 */
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* メインビジュアル */
+.hero {
+    background: linear-gradient(135deg, #00b4db, #0083b0); /* Waccaをイメージした青系 */
+    color: white;
+    padding: 60px 0;
+}
+
+.hero h1 { font-size: 3rem; margin-bottom: 10px; }
+.subtitle { font-size: 1.2rem; margin-bottom: 30px; }
+
+/* アプリ画面の枠（後で画像を入れる場所） */
+.mockup-placeholder {
+    width: 250px;
+    height: 500px;
+    background: #eee;
+    margin: 0 auto 30px;
+    border-radius: 30px;
+    border: 8px solid #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+}
+
+/* ボタン */
+.btn {
+    background: white;
+    color: #0083b0;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+/* 法務ページ用 */
+.legal-page { text-align: left; padding: 40px 20px; }
+footer { margin-top: 50px; padding: 20px; font-size: 0.8rem; border-top: 1px solid #eee; }
